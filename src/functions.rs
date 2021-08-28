@@ -3,8 +3,8 @@ pub fn run(){
     greeting("kiya haal hain", "Huzaifa");
     let sum = add(5,7);
     println!("{}",sum);
-
-    let mul = |n1: i32 , n2: i32| n1*n2;
+    let n3 = 3;
+    let mul = |n1: i32 , n2: i32| n1*n2*n3;
     println!(" multiply {}", mul(3,2) );
 }
     
