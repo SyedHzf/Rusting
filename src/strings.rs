@@ -10,7 +10,7 @@ pub fn run (){
     println!("lenght is {}",hello2.len());
 
     hello2.push(' ');
-    hello2.push_str("Ali");
+    hello2.push_str("Ali"); // String :: from
     // capacity
     println!("{}",hello2.capacity());
     // is empty

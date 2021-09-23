@@ -1,3 +1,4 @@
+#![warn(non_snake_case)]
 //mod types;
 //mod vars;
 //mod print;
@@ -6,17 +7,21 @@
 //mod array;
 // mod vectors;
 // mod functions;
-mod pointers;
+// mod factorial; 
+// // mod fibbo;
+// mod struc;
+// mod String_vs_str;
+// mod Associated_functions_and_Methods;
+// mod Box_pointer;
+// mod Deref;
+// mod pointers;
+// mod MyBox;
+// mod Drop_pointer;
+mod Ref_count;
 
 fn main() {
+ 
+  // MyBox::run();
+  Ref_count::run();
 
-    //println!("Huzaifa");
-
-    pointers::run();
-
-   
-// positional arguments
- // print::run1();
-
-  //print::run3();
-}
+  }
