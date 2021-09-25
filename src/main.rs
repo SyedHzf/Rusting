@@ -8,7 +8,7 @@
 // mod vectors;
 // mod functions;
 // mod factorial; 
-// // mod fibbo;
+// mod fibbo;
 // mod struc;
 // mod String_vs_str;
 // mod Associated_functions_and_Methods;
